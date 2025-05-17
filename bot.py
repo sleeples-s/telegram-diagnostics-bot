@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, Con
 import aiohttp
 
 # Получаем токен из переменных окружения
-TELEGRAM_BOT_TOKEN = os.getenv("7904412826:AAEC2o47SmjqyiXzYUCXT7ZJKBW9WhdGg3o")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # Логгирование
 logging.basicConfig(
